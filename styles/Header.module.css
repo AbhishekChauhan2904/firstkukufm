@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ec5642;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  height: 50px;
+  margin-right: 20px;
+}
+
+.title {
+  font-size: 24px;
+  margin-right: 20px;
+}
+
+.searchBox {
+  flex-grow: 1;
+  padding: 5px 10px;
+  margin-right: 20px;
+  border: 1px solid #f6f5f5;
+  border-radius: 4px;
+}
+
+.nav {
+  display: flex;
+  gap: 10px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #f5f1f1;
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.navLink:hover {
+  background-color: #ddd;
+}

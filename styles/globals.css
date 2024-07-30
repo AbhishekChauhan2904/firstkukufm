@@ -1,0 +1,49 @@
+/* styles/globals.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #ff5733;
+  color: white;
+  padding: 10px 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+.carousel {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel img {
+  width: 100%;
+}
+
+.carouselItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.infiniteScroll {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.infiniteScroll .item {
+  margin: 20px 0;
+}

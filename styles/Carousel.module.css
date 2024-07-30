@@ -1,0 +1,51 @@
+.carousel {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap; /* Ensures the items are in a single line */
+}
+
+.carouselContainer {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 100%; /* Allows the slider to move correctly */
+}
+
+.carouselItem {
+  display: inline-block;
+  width: calc(100% / 5); /* Adjust based on the number of items you want visible at once */
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+  background-color: #fcfbfb;
+}
+
+.carouselImage {
+  width: 100%;
+  height: auto;
+}
+
+.title {
+  color: #000000;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 253, 253, 0.5);
+  color: #040404;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
